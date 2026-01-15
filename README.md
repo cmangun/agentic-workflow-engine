@@ -5,14 +5,14 @@
 
 **Production-grade agent orchestration engine with multi-step reasoning, policy enforcement, and comprehensive audit trails.**
 
-## 🎯 Business Impact
+## Business Impact
 
 - **Deterministic execution** with checkpointing and rollback
 - **Cost controls** with per-request and per-user limits
 - **Policy enforcement** for sensitive operations
 - **100% audit coverage** for compliance requirements
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
@@ -31,7 +31,7 @@
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
-## ✨ Key Features
+## Key Features
 
 ### 🔄 Multi-Step Orchestration
 - Sequential and parallel step execution
@@ -39,7 +39,7 @@
 - State management across steps
 - Timeout and retry policies
 
-### 🛡️ Policy Enforcement
+### Policy Enforcement
 - Cost limits (per-request, hourly, daily)
 - Step count limits
 - Sensitive operation approval gates
@@ -51,7 +51,7 @@
 - Cost estimation per tool
 - Timeout management
 
-## 🚀 Quick Start
+## Quick Start
 
 ```python
 from src.orchestration.workflow_engine import (
@@ -92,7 +92,7 @@ step = await engine.execute_step(
 await engine.complete_workflow(workflow.workflow_id)
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 agentic-workflow-engine/
@@ -109,6 +109,6 @@ agentic-workflow-engine/
 └── examples/
 ```
 
-## 👤 Author
+## Author
 
 **Christopher Mangun** - [github.com/cmangun](https://github.com/cmangun)
